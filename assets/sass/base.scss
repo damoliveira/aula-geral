@@ -6,7 +6,6 @@ body{
     background-color: #b64900;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 6.25rem;
     grid-gap: 0.6rem;
     padding: 1.3rem;
 
@@ -17,6 +16,7 @@ body{
         color: #fff;
         font-size: 1.3rem;
     }
-    
+
+
 }
 
