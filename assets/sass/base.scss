@@ -5,7 +5,7 @@ body{
 .container{
     background-color: #b64900;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.6rem;
     padding: 1.3rem;
 
@@ -16,7 +16,18 @@ body{
         color: #fff;
         font-size: 1.3rem;
     }
-
-
+    .item7{
+        grid-column-start:3;
+        grid-column-end:4;
+        grid-row-start:1;
+        grid-row-end:5;
+    }
+    .item5{
+        background-color: #cc078a;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end:5 ;
+    }
 }
 
